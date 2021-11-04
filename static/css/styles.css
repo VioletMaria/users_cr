@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px 0px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.button-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 5px;
+    background-color: lightblue;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 20px;
+}
