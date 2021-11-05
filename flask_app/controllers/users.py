@@ -13,12 +13,7 @@ def add_new():
 
 @app.route("/create", methods=["POST"])
 def create_users():
-    data = {
-        "first_name":request.form["first_name"],
-        "last_name":request.form["last_name"],
-        "email":request.form["email"]
-    }
-    User.create_user(data)
+    User.create_user(request.form)
     return redirect("/")
 
 @app.route("/edit/<int:id>")
